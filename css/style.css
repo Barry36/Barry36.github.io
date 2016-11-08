@@ -1,0 +1,245 @@
+body{
+  background-color: #F6F6F6;
+}
+ul{
+  color: #555555;
+}
+.header{
+  color: #444444 !important;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/*mobile size for front section*/
+.section-bg{
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.section-break{
+  margin-top: 150px;
+}
+/*desktop size for front section*/
+@media(min-width:768px) {
+  .section-bg{
+	height: 100px;
+	background-color: #ffffff;
+  }
+}
+
+/*mobile size for front section*/
+.title-section{
+  margin-top:50px;
+}
+
+/*desktop size for front section*/
+@media(min-height:768px) {
+.title-section{
+  position: relative;
+  top: 20%;
+  -webkit-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+}
+
+}
+/*
+.title-section{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}*/
+
+.fa-chevron-down{
+  margin-bottom: 100px;
+}
+.navbar-fixed{
+  -webkit-box-shadow: none !important;
+}
+
+.nav-center{
+  margin: auto;
+  align: center;
+}
+
+.navbar-sub a{
+  font-size: 20px;
+}
+/*mobile size for front pic*/
+.mypic{
+  margin-left:auto;
+  margin-right:auto;
+  top:10%;
+	width: 150px;
+	height: 150px;
+  position: relative;
+  margin: auto;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	background: url("../images/wjqmobile.jpg") no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+/*desktop size for front pic*/
+@media(min-width:768px) {
+  .mypic{
+    display: none;
+    margin-left:auto;
+    margin-right:auto;
+    top:10%;
+  	width: 300px;
+  	height: 300px;
+    position: relative;
+    margin: auto;
+  	border-radius: 150px;
+  	-webkit-border-radius: 150px;
+  	-moz-border-radius: 150px;
+  	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    background: url("../images/wjq.jpg") no-repeat;
+  }
+}
+
+
+.btn-large{
+  width: 140px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn-linkedin{
+  background-color: #00a0dc;
+  /*margin-right: 30px;*/
+}
+
+.btn-github{
+  background-color: #74c558;
+}
+
+.btn-youtube{
+  background-color: #e62117;
+}
+
+.material-icons{
+  margin-right: 5px;
+}
+.btn-title{
+  position: relative;
+  top:-5%;
+  padding-left: 7px;
+  font-size: 18px;
+
+}
+
+/*skills*/
+.frameworks-title{
+  width: 150px;
+  font-size: 18px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+@media(min-width:1200px) {
+.frameworks-title{
+  width: 50%;
+  font-size: 18px;
+  text-align:left;
+  margin: 0 auto;
+}
+}
+
+.langs-title{
+	width: 150px;
+	font-size: 18px;
+	text-align: left;
+	margin-top: 0;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 20px;
+}
+
+@media(min-width:1200px) {
+.langs-title{
+  width: 80%;
+  font-size: 18px;
+  text-align: left;
+  margin: 0 auto;
+}
+}
+
+.tools-title{
+  width: 150px;
+  font-size: 18px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+@media(min-width:1200px) {
+.tools-title{
+  width: 80%;
+  font-size: 18px;
+  /*text-indent: 20px;*/
+  text-align:left;
+  margin: 0 auto;
+}
+}
+/*project cards*/
+.section-title{
+  margin-top:100px;
+  padding-bottom: 40px;
+}
+
+.proj-title{
+  margin-top: 0px;
+  font-size: 28px;
+}
+
+.proj-des{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.card{
+  margin-bottom: 40px;
+}
+
+.card-image{
+  border-style: ridge;
+  border-width: 1px;
+  border-color: #d0d0d0;
+}
+.card-content p{
+  font-size: 18px;
+  color: #555555 !important;
+}
+.card-content p{
+  text-indent:30px;
+}
+
+.card-links{
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+.video{
+  width:100%;
+  height: 430px;
+}
+@media(min-width:1200px) {
+  .video{
+    width:100%;
+    height: 225px;
+  }
+}
+/*footer*/
+#contacts{
+  margin-top: 100px;
+}
